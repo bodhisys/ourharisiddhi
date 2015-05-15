@@ -1,0 +1,1107 @@
+@charset "utf-8";
+/* CSS Document */
+/*
+PURPOSE:
+	[1] Basic cascading stylesheet for ALL browsers
+	[2] Contains only resets and global styles
+	[3] MEDIA = SCREEN
+
+REVISION HISTORY:
+	September 12, 2011. v1.0. Under Construction.
+
+STATUS OF THIS DOCUMENT:
+	This is a working draft.
+
+AUTHOR:
+	Subodh Maharjan
+	info@subodhmaharjan.com.np
+	url: http://www.subodhmaharjan.com.np
+
+LEGAL NOTICE:
+	Distribution of this document is limited.
+	Copyright (C) Our Harisiddhi. All Rights Reserved.
+	Powered by NepStyl-Kreation Media.
+*/
+
+@import url(reset.css);
+
+body{
+	background:url(http://www.ourharisiddhi.com/images/bodyBG.jpg) repeat-x #101010;
+	font:11px Arial, Helvetica, sans-serif;
+	color:#666;
+}
+
+h4 strong, h4 a{
+	font-weight:bold;
+	color:#7F7F7F;	
+}
+
+/* sticky slidebar */
+#sticky {
+	padding:5px;
+	height: 120px;
+	width: 60px;
+		-webkit-border-radius: 0 7px 7px 0;
+		-moz-border-radius: 0 7px 7px 0;
+		border-radius: 0 7px 7px 0;
+		position:absolute;
+		z-index:1000;
+		top:0px;
+}
+
+.carbonads-container{}
+
+.sticky_text {
+	color: #ffffff;
+	text-align: center;
+	font-size: 16px;
+	line-height: 20px;
+	padding-top: 10px;
+}
+
+#sticky a.fb{
+	margin-top:230px;
+	display:block;
+	background:url(http://www.ourharisiddhi.com/images/fb.png) no-repeat;
+	width:47px;
+	height:120px;
+	position:relative;
+	left:-13px;
+}
+
+#sticky a.fb:hover{
+	position:relative;
+	left:-5px;	
+}
+
+
+/* wrapper */
+.wrapper{
+	width:1000px;
+	margin:0 auto;
+}
+
+/* header */
+.header{
+	height:106px;	
+}
+
+/* logo */
+.logo{
+	width:314px;
+	float:left;	
+}
+
+.logo a{
+	background:url(http://www.ourharisiddhi.com/images/logo.png) no-repeat bottom;
+	height:66px;
+	display:block;
+	padding-top:19px;
+}
+
+/* top nav */
+ul.topNav{
+	background-color:#530C0A;
+	width:340px;
+	height:22px;
+	float:right;
+	padding-top:9px;
+}
+
+ul.topNav li{
+	border-right:1px solid #6B110C;
+	float:left;
+}
+
+ul.topNav li a{
+	color:#A4221C;
+	padding:0 16px;
+}
+
+ul.topNav li a:hover{
+	color:#DB352D;
+	text-decoration:none;
+}
+
+/* main menu */
+.mainMenu{
+	height:38px;
+}
+
+.mainMenu ul{
+	margin-top:1px;
+	height:37px;
+	background:url(http://www.ourharisiddhi.com/images/menuSep.jpg) repeat-y left;
+	overflow:hidden;
+}
+
+.mainMenu ul li{
+	background:url(http://www.ourharisiddhi.com/images/menuSep.jpg) repeat-y right;
+	float:left;
+	line-height:37px;
+	padding-right:2px;
+}
+
+.mainMenu ul li a{
+	font:12px Tahoma, Geneva, sans-serif;
+	color:#F4382F;
+	text-transform:uppercase;
+	padding:10px 15px 13px 14px;
+}
+
+.mainMenu ul li a:hover{
+	text-decoration:none;
+	background-color:#6A110B;
+}
+
+/* banner */
+.banner{
+	height:319px;
+	background:url(http://www.ourharisiddhi.com/images/bnrBG.png) repeat-x;
+}
+
+.aboutUs{
+	background:none;
+	background-color:#B2110A;
+	height:220px;	
+}
+
+.aboutWrapper{
+	background:url(http://www.ourharisiddhi.com/images/abtBG.jpg) no-repeat;
+	height:220px;
+}
+
+.abtJala{
+	background:none;
+	background-color:#0099FF;
+	height:220px;	
+}
+
+.abtJalaWrapper{
+	background:url(http://www.ourharisiddhi.com/images/abtjalaBG.jpg) no-repeat;
+	height:220px;
+}
+
+.donation{
+	background:none;
+	background-color:#999;
+	height:220px;	
+}
+
+.donationWrapper{
+	background:url(http://www.ourharisiddhi.com/images/donationBG.jpg) no-repeat;
+	height:220px;
+}
+
+.wallpaper{
+	background:none;
+	background:url(http://www.ourharisiddhi.com/images/wallpaperBnrBG.jpg) repeat-x;
+	height:220px;	
+}
+
+.wallpaperWrapper{
+	background:url(http://www.ourharisiddhi.com/images/wallpaperBG.jpg) no-repeat;
+	height:220px;
+}
+
+.contactUs{
+	background:none;
+	background-color:#CCC;
+	height:220px;	
+}
+
+.contactWrapper{
+	background:url(http://www.ourharisiddhi.com/images/contactBG.jpg) no-repeat;
+	height:220px;
+}
+
+.copyRight{
+	background:none;
+	background-color:#333;
+	height:220px;	
+}
+
+.copyRightWrapper{
+	background:url(http://www.ourharisiddhi.com/images/copyrightBG.jpg) no-repeat;
+	height:220px;
+}
+
+.article{
+	background:none;
+	background:url(http://www.ourharisiddhi.com/images/articleBGmain.png) repeat-x;
+	height:220px;	
+}
+
+.articleWrapper{
+	background:url(http://www.ourharisiddhi.com/images/articleBG.jpg) no-repeat;
+	height:220px;
+}
+
+.interviewBG{
+	background:none;
+	background:url(http://www.ourharisiddhi.com/images/interviewBGmain.png) repeat-x;
+	height:220px;	
+}
+
+.interviewWrapper{
+	background:url(http://www.ourharisiddhi.com/images/interviewBG.jpg) no-repeat;
+	height:220px;
+}
+
+.video{
+	background:none;
+	background-color:#FFF;
+	height:220px;	
+}
+
+.videoWrapper{
+	background:url(http://www.ourharisiddhi.com/images/videoBG.jpg) no-repeat;
+	height:220px;
+}
+
+.events{
+	background:none;
+	background:url(http://www.ourharisiddhi.com/images/eventBG.png) repeat-x;
+	height:220px;	
+}
+
+.eventWrapper{
+	background:url(http://www.ourharisiddhi.com/images/eventsBG.jpg) no-repeat;
+	height:220px;
+}
+
+/* left anim bnr */
+.leftAnimBnr{
+	width:492px;
+	float:left;
+}
+
+.scrolgall{
+	width:484px;
+	height:262px;	
+	padding-top:28px;
+	overflow:hidden;
+}
+
+.scrolgall img{
+	
+}
+
+/* right anim bnr */
+.rightAnimBnr{
+	width:478px;
+	height:309px;
+	float:right;
+	padding-top:10px;
+}
+
+/* top block */
+.topBlock{
+	height:246px;
+	border-top:2px solid #333;
+	border-bottom:2px solid #333;
+	background-color:#141414;
+}
+
+.title{
+	background:url(http://www.ourharisiddhi.com/images/titleBG.jpg) repeat-x;
+	height:15px;
+}
+
+.title a{
+	font:bold 15px Tahoma, Geneva, sans-serif;
+	color:#666;
+	background-color:#141414;
+	padding-right:5px;
+}
+
+.title a:hover{
+	text-decoration:none;
+	color:#999;	
+}
+
+.content{
+	padding-top:15px;
+	line-height:18px;
+}
+
+.content h3, h3 a{
+	color:#999;
+	padding-top:10px;
+	padding-bottom:2px;
+}
+
+.content p{
+	color:#666;
+}
+
+/* interview */
+.interview{
+	width:250px;
+	float:left;
+	padding:15px 20px 15px 0px;
+	border-right:2px solid #333;
+	height:216px;
+}
+
+.interview .content img{
+	background-color:#FFF;
+	padding:1px;
+	border:1px solid #CFCFCF;
+	float:left;
+	margin-right:10px;
+}
+
+a.more{
+	font-weight:bold;
+	color:#999;	
+}
+
+.interviewInfo{
+	text-align:right;
+	padding-top:10px;	
+}
+
+.interviewInfo h3{
+	color:#0EC9FF;
+	border-bottom:1px dotted #666;
+	padding-top:0px;
+	padding-bottom:5px;
+	margin-bottom:1px;
+}
+
+.interviewInfo p{
+	font-style:italic;
+}
+
+/* events */
+.event{
+	width:452px;
+	float:left;
+	padding:15px 20px;
+	border-right:2px solid #333;
+	height:216px;
+}
+
+.eventBlock{
+	width:215px;
+	padding-right:10px;
+	margin-right:10px;
+	float:left;
+	border-right:2px solid #333;
+}
+
+.eventBlock a.eventImg{
+	width:205px;
+	height:107px;	
+	border:1px solid #C7C7C7;
+	background-color:#DDD;
+	padding:4px;
+	display:block;
+}
+
+.eventBlock img{
+	border:1px solid #C7C7C7;
+}
+
+input.btnMore{
+	background:url(http://www.ourharisiddhi.com/images/btnMore.jpg) no-repeat;
+	width:91px;
+	height:18px;
+	cursor:pointer;
+	border:0px;
+	margin-top:10px;	
+}
+
+/* donate */
+.donate{
+	width:214px;
+	float:right;
+	padding:15px 0 15px 20px;
+}
+
+.donate .content p{
+	padding-top:10px;
+	line-height:16px;	
+}
+
+.donate .content a.donateImg{
+	width:204px;
+	height:80px;	
+	border:1px solid #C7C7C7;
+	background-color:#DDD;
+	padding:4px;
+	display:block;
+}
+
+.donate .content img{
+	border:1px solid #C7C7C7;
+}
+
+/* main content wrapper */
+.mainContentWrapper{
+	padding-top:16px;
+}
+
+/* left content */
+.leftContent{
+	width:749px;
+	float:left;	
+}
+
+/* block */
+.block{
+	margin-top:6px;
+	margin-bottom:16px;
+}
+
+.block .title{
+	border-bottom:1px dotted #666;
+	background:none;	
+	height:17px;
+}
+
+.block .title a{
+	border:1px dotted #666;
+	border-bottom:0px;	
+	padding:5px 10px 0px 10px;
+	color:#01ACD9;
+}
+
+.block .content{
+	border:1px dotted #666;
+	border-top:0px;
+	padding-top:10px;
+}
+
+/* wall block */
+.wallBlock{
+	width:228px;
+	float:left;
+	padding:0 10px;
+	margin-bottom:10px;
+	border-right:1px solid #333;
+}
+
+.wallBlock a.wallImg{
+	width:218px;
+	height:108px;	
+	border:1px solid #C7C7C7;
+	background-color:#DDD;
+	padding:4px;
+	display:block;
+	margin-top:12px;
+}
+
+.wallBlock img{
+	border:1px solid #C7C7C7;
+}
+
+.wallBlock ul {
+	padding-top:5px;
+}
+
+.wallBlock li {
+	border-bottom:1px dotted #999;
+	height:20px;
+	padding:4px 0 0 0;
+}
+
+.wallBlock li a {
+	font:11px Arial, Helvetica, sans-serif;
+	color:#666;
+	background:url(http://www.ourharisiddhi.com/images/bull.png) 0px 5px no-repeat;
+	text-decoration:none;
+	padding:3px 0 0 15px;
+}
+
+.wallBlock li a:hover{
+	color:#999;	
+}
+
+/* featured video */
+.featuredVideo{
+	width:374px;
+	float:left;	
+}
+
+.videoBlock{
+	width:165px;
+	float:left;
+	padding:0 10px;
+	margin-bottom:10px;
+	border-right:1px solid #333;
+}
+
+.videoBlock a.videoImg{
+	width:155px;
+	height:85px;	
+	border:1px solid #C7C7C7;
+	background-color:#DDD;
+	padding:4px;
+	display:block;
+}
+
+.videoBlock h3{
+	background:url(http://www.ourharisiddhi.com/images/bull2.png) no-repeat 0px 13px;
+	padding-left:12px;	
+}
+
+.borderStyle{
+	border-top:1px dotted #666;
+	padding-top:10px;	
+}
+
+input.btnViewAll{
+	background:url(http://www.ourharisiddhi.com/images/btnViewAll.jpg) no-repeat;
+	width:81px;
+	height:18px;
+	float:right;
+	cursor:pointer;
+	border:0px;
+	margin:0 10px 10px 0;	
+}
+
+/* news and articles */
+.newsArticle{
+	width:356px;
+	float:right;
+}
+
+.newsArticle .content{
+	padding:0px;	
+}
+
+.newsBlock{
+	padding:10px;
+	padding-bottom:0px;
+}
+
+.newsBlock a.newsImg{
+	width:84px;
+	height:64px;
+	border:1px solid #FFF;
+	background-color:#CCC;
+	padding:2px;
+	float:left;
+}
+
+.newsContent{
+	width:234px;
+	float:right;	
+}
+
+.newsBlock h3{
+	padding-top:0px;
+}
+
+.newsBlock p{	
+}
+
+.newsContent a{
+	color:#777;	
+}
+
+/* window shopping */
+p.shoppingStyle{
+	padding:0 10px;
+	text-align:justify;
+	font-weight:bold;
+	padding-bottom:10px;	
+}
+
+.productBlock{
+	width:167px;
+	height:137px;
+	float:left;
+	background-color:#F2F2F2;
+	padding:4px;
+	margin-left:9px;
+	margin-bottom:10px;
+}
+
+.productBlock img{
+	width:165px;
+	height:94px;
+	border:1px solid #E6E6E6;	
+}
+
+.productBlock h3, .productBlock p{
+	line-height:11px;
+	padding-left:5px;
+	padding-bottom:5px;
+}
+
+.productBlock h3 a{
+	color:#0597C0;	
+}
+
+/* right content */
+.rightContent{
+	width:230px;
+	float:right;
+}
+
+.rightContent a.adStyle{
+	border:1px solid #444;
+	padding:4px;
+	display:block;
+	margin-bottom:10px;	
+}
+
+.advertisement{
+	padding-top:10px;
+}
+
+.advertisement img.adHdr{
+	margin-bottom:10px;	
+}
+
+/* directory */
+.directory{
+	
+}
+
+#directoryHdr{
+	height:40px;
+    width:1000px;
+	margin:0 auto;
+    background:url(http://www.ourharisiddhi.com/images/slidein_button.png) no-repeat;
+    cursor:pointer;
+}
+
+#directoryContent{
+    width:100%;
+    background-color:#E26C0F;
+    display:none;
+	padding:16px;
+	color:#FFF;
+}
+
+#directoryContent ul{
+
+}
+
+#directoryContent ul li{
+	width:301px;
+	float:left;
+	margin-right:30px;
+	border-bottom:1px dashed #B95A0D;
+	padding-bottom:10px;
+	margin-bottom:10px;
+	color:#653207;
+}
+
+#directoryContent ul li a{
+	font-size:12px;
+	font-weight:bold;
+	color:#000;
+}
+
+#directoryContent ul li span{
+	color:#560A05;	
+	padding-left:5px;
+	font-size:12px;
+	font-weight:bold;
+}
+
+
+
+#directoryContent ul li a:hover{
+	
+}
+
+/* footer */
+.footer{
+	background:url(http://www.ourharisiddhi.com/images/footBG.jpg) repeat-x;
+	height:227px;
+	padding:17px 0 15px 0;
+}
+
+.footTop{
+	height:163px;
+	overflow:hidden;
+}
+
+/* wrap / tab style */
+#wrap {
+	width:500px;
+	float:left;
+	border:1px dashed #F3524A;
+	}
+#nav{
+	background-color:#570904;
+}
+#nav a, #nav a:active, #nav a:visited {
+	display:block;
+	float:left;
+	padding:5px 20px;
+	color:#F3524A;
+	text-decoration:none;
+	outline:none;
+	font:bold 13px Tahoma, Geneva, sans-serif;
+	
+	}
+#nav a.selected, #nav a.selected:active, #nav a.selected:visited {
+	color:#F3524A;
+	text-decoration:none;
+	outline:none;
+	font:bold 13px Tahoma, Geneva, sans-serif;
+	background:url(http://www.ourharisiddhi.com/images/tabHdrBG.png) repeat-x;
+	}
+.hiddencontent {
+	padding:13px;
+	display:none;
+	color:#F3524A;
+	height:109px;
+	overflow:hidden;
+	}
+.hiddencontent a.more{
+	color:#F3524A;
+	font-weight:bold;	
+}
+.hiddencontent img.abtHarisiddhi{
+	float:right;
+	border:1px solid #333;
+	margin-left:15px;	
+}
+
+.hiddencontent img.abtUs{
+	width:157px;
+	height:109px;
+	background-color:#333;
+	float:left;
+	margin-right:4px;
+}
+
+/* slogan */
+.slogan{
+	width:479px;
+	float:right;
+	background:url(../images/sloganImg.jpg) no-repeat;
+	height:163px;
+	display:block;
+}
+
+/* foot buttom */
+.footBtm{
+	height:43px;
+	padding-top:35px;
+	overflow:hidden;
+	color:#FFF;
+}
+
+/* foot nav */
+ul.footNav{
+	padding-top:6px;
+	width:500px;
+	float:left;
+}
+
+ul.footNav li{
+	float:left;
+	border-right:1px solid #FFF;
+	line-height:11px;
+}
+
+ul.footNav li a{
+	color:#FFF;
+	padding:0 12px;
+}
+
+ul.footNav li a:hover{
+	
+}
+
+/* copyright */
+.copyright{
+	text-align:right;
+	width:500px;
+	color:#FFF;
+	float:right;
+}
+
+.copyright a{
+	color:#999;
+	font-weight:bold;	
+}
+
+
+
+
+/* inner content */
+.innerContent{
+	background:url(http://www.ourharisiddhi.com/images/page-top.jpg) no-repeat left top #191919;	
+	padding:30px 20px 20px 20px;
+	margin-bottom:22px;
+}
+
+.innerContent h1{
+	font:bold 23px Georgia, "Times New Roman", Times, serif;
+	color:#666;
+}
+
+.innerContent p{
+	font:11px Arial, Helvetica, sans-serif;
+	color:#666;
+}
+
+.innerContent h4{
+	font:12px/18px Arial, Helvetica, sans-serif;
+	color:#666;
+	border-top:1px dashed #999;
+	padding-top:10px;
+	margin-top:10px;
+}
+
+.member{
+	width:156px;
+	background-color:#111;
+	border:1px solid #000;
+	padding:4px 4px;
+	margin-top:15px;
+	margin-right:15px;
+	float:left;
+}
+.member img{
+	width:156px;	
+}
+.member h2{
+	font:bold 11px Arial, Helvetica, sans-serif;
+	color:#666;
+	padding:2px 0px;
+}
+
+.member p{
+padding:0px;
+margin:0px;
+padding-bottom:2px;
+}
+
+.member a{
+padding:0px;
+color:#C67700;
+font:11px Arial, Helvetica, sans-serif;
+}
+
+/* contact us */
+input.txtField{
+	background-color:#222;
+	border:1px solid #444;
+	width:440px;
+	height:24px;
+	float:right;
+	padding:0 5px;
+	line-height:24px;
+	font:12px Arial, Helvetica, sans-serif;
+	color:#666;
+}
+
+textarea.txtareaStyle{
+	background-color:#222;
+	border:1px solid #444;
+	width:440px;
+	height:150px;
+	float:right;
+	padding:5px;
+	font:12px Arial, Helvetica, sans-serif;
+	color:#666;	
+}
+
+input.btnSubmit{
+	background-color:#CCC;
+	border:1px solid #666;
+	padding:3px 10px;
+	cursor:pointer;
+	float:left;
+}
+
+.content table tr td span{
+	font-weight:bold;
+	font-size:13px;
+}
+
+td span span{
+	color:#F00;	
+}
+
+/* donation */
+img.donationLeft{
+	width:340px;
+	height:244px;
+	background-color:#DFDFDF;
+	border:1px solid #CECECE;
+	padding:3px;
+}
+
+.content span.FR{
+	width:331px;
+	font:bold 18px/26px Georgia, "Times New Roman", Times, serif;	
+}
+
+/* gallery */
+.galleryContent{
+}
+
+.galleryContent .block .title a{
+	background-color:#191919;	
+}
+
+.galleryContent .block .content{
+	padding:20px 0;	
+}
+
+.galleryContent .block .content img{
+	float:right;
+	margin-right:20px;
+}
+
+ul.gallLeft{
+	width:472px;
+	float:left;
+	padding-left:20px;
+}
+
+ul.gallLeft li{
+	background:url(http://www.ourharisiddhi.com/images/bull3.jpg) no-repeat left;
+	width:198px;
+	float:left;
+	padding-left:18px;
+	margin-right:20px;
+	border-bottom:1px dotted #666;
+}
+
+ul.gallLeft li a{
+	font:12px/30px Tahoma, Geneva, sans-serif;
+	color:#666;
+}
+
+ul.gallLeft li a:hover{
+	
+}
+
+a strong{
+	font-weight:bold;	
+}
+
+a.otherWalls, a.otherArticles{
+	color:#666;	
+	padding-right:25px;
+}
+
+.popularGallery{
+		
+}
+
+/* wallpaper */
+.wallGallContent{
+
+}
+
+.wallGallContent .block .title a, .popularArticles .block .title a{
+	background-color:#191919;	
+}
+
+.wallGallContent .block .content{
+	padding:15px;
+	padding-bottom:0px;	
+}
+
+.wallGallContent .block .content a img{
+	width:117px;
+	height:85px;
+	background-color:#111;
+	border:1px solid #333;
+	padding:3px;	
+	margin-right:10px;
+	margin-bottom:10px;
+}
+
+.wallGallContent .block .content a img:hover{
+	border:1px solid #666;
+	background-color:#333;	
+}
+
+.wallGallContent .block .content a img.wallGallImgStyle{
+	width:85px;
+	height:115px;
+	margin-right:9px;
+	margin-left:8px;
+}
+
+.paging{
+	height:20px;
+	background-color:#333;
+	margin-bottom:15px;	
+	padding:0 10px;
+}
+
+.paging a.prev{
+	float:left;
+	width:100px;
+	background:url(../images/prev.png) no-repeat left;
+	padding-left:16px;
+	line-height:20px;	
+	
+}
+
+.paging a.next{
+	float:right;
+	width:100px;
+	background:url(../images/next.png) no-repeat right;
+	padding-right:16px;
+	line-height:20px;	
+	text-align:right;
+}
+
+.paging .numbering{
+	width:100px;
+	float:left;
+	padding-left:190px;
+	height:20px;	
+	line-height:20px;
+}
+
+.numbering a{
+	border-right:1px solid #666;
+	color:#666;
+	height:10px;
+	line-height:10px;
+}
+
+.numbering a:hover{
+	color:#000;	
+	text-decoration:none;
+}
+
+.numbering a.selected{
+	color:#000;	
+}
+
+/* article by */
+.articleBy{
+	width:300px;
+	text-align:right;
+	float:right;
+	font-size:12px;	
+}
+
+.articleBy h3{
+	font-size:11px;
+	color:#333;
+	padding-top:5px;	
+}
+
+h2.interviewTitle{
+	font-size:14px;
+	font-weight:bold;
+	padding-top:10px;	
+}
+
+img.interviewImg{
+	height:183px;
+	width:177px;
+	border:1px solid #999;
+	float:left;
+	margin:0 15px 10px 0;	
+}

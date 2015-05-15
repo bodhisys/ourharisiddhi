@@ -1,0 +1,53 @@
+* {margin:0; padding:0; font:12px Verdana,Arial}
+code {font-family:"Courier New",Courier}
+
+#options {text-align:right; color:#999}
+#options a {text-decoration:none; color:#999}
+#options a:hover {color:#CCC;}
+
+#acc, #acc2 {list-style:none; color:#CCC;}
+#acc h3, #acc2 h3 {border:1px solid #999; padding:5px 4px 7px 13px; font-weight:bold; margin-top:5px; cursor:pointer; background:url(../images/accordingMenu/header.gif) repeat-x; font:bold 14px "Trebuchet MS", Arial, Helvetica, sans-serif;}
+#acc h3:hover, #acc2 h3:hover {background:url(../images/accordingMenu/header_over.gif) repeat-x;}
+#acc .acc-section, #acc2 .acc-section {overflow:hidden; background:#fff}
+#acc .acc-content, #acc2 .acc-content {padding:15px; border:1px solid #999; border-top:none; background:#666; color:#CCC; font:12px/20px Arial, Helvetica, sans-serif;}
+
+#nested, #nested2 {list-style:none; color:#033; margin-bottom:15px}
+#nested h3, #nested2 h3 {border:1px solid #999; padding:6px 6px 6px; font-weight:bold; margin-top:5px; cursor:pointer; background:url(../images/accordingMenu/header.gif) repeat-x;}
+#nested h3:hover, #nested2 h3:hover {background:url(../images/accordingMenu/header_over.gif) repeat-x;}
+#nested .acc-section, #nested2 .acc-section2 {overflow:hidden; background:#fff}
+#nested .acc-content, #nested2 .acc-content2 {padding:15px; border:1px solid #999; border-top:none; background:#555}
+#nested .acc-selected, #nested2 .acc-selected {background:url(../images/accordingMenu/header_over.gif) repeat-x;}
+
+
+.acc-content p{
+	padding-bottom:10px;
+	font:12px/20px Arial, Helvetica, sans-serif;
+	color:#CCC;
+}
+
+.acc li h3{
+	color:#CCC;	
+}
+
+.acc li h3 a{
+	background:url(../images/plus.jpg) no-repeat;
+	width:21px;
+	height:9px;
+	float:right;
+	display:block;	
+}
+
+.acc-content ul.listStyle{
+	list-style:decimal inside;
+	padding-left:20px;
+	padding-bottom:10px;
+}
+
+.acc-content ul.listStyle li ul{
+	padding-left:20px;	
+}
+
+.acc-content img{
+	margin-right:20px;
+	margin-bottom:20px;	
+}
